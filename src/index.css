@@ -1,0 +1,82 @@
+:root {
+  /* ------ */
+  /* Colors */
+  /* ------ */
+
+  /* Primary */
+  --navy-850: 217 28% 15%;
+  /* intro and email sign up background */
+  --navy-900:218 28% 13%;
+  /* main background */
+  --navy-950: 216 53% 9%;
+  /* footer background */
+  --navy-800: 219 30% 18%;
+  /* testimonials background */
+
+  /* Accent */
+  --teal-200: 176 68% 64%;
+  /* inside call-to-action gradient */
+  --cyan-500: 198 60% 50%;
+  /* inside call-to-action gradient */
+  --red-500: 0 100% 63%;
+  /* error */
+
+  /* Neutral */
+  --white: 0 0% 100%;
+
+  /* ---------- */
+  /* Typography */
+  /* ---------- */
+
+  --fs-100: .875rem;
+  --fw-400: 400;
+  --fw-700: 700;
+
+  /* Headings, Call-to-actions, Header Navigation */
+  --ff-raleway: "Raleway", sans-serif;
+  
+  /* Body */
+  --ff-openSans: "Open Sans", sans-serif;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Raleway';
+  font-weight: 400;
+  src: url('./assets/fonts/Raleway/Raleway-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Raleway';
+  font-weight: 700;
+  src: url('./assets/fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  src: url('./assets/fonts/Open-Sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  src: url('./assets/fonts/Open-Sans/OpenSans-Bold.ttf') format('truetype');
+}
+
+body {
+  font-family: var(--ff-openSans);
+  font-size: var(--fs-100);
+  font-weight: var(--fw-400);
+  color: hsl(var(--white));
+
+  background-color: hsl(var(--navy-850));
+  line-height: 1.5;
+  letter-spacing: 1.2px;
+
+  padding: 1.8rem;
+}
+

@@ -1,0 +1,9 @@
+.features-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+.features-heading {
+  font-family: var(--ff-raleway);
+}

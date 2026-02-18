@@ -1,0 +1,8 @@
+.overview-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.overview-image {
+  background-color: hsl(var(--navy-900));
+}

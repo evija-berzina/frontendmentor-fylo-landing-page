@@ -1,0 +1,23 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fylo-logo {
+  width: 6rem;
+}
+
+.nav-pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-pages a {
+  color: hsl(var(--white));
+  text-decoration: none;
+}
