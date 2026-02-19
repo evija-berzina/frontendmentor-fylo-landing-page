@@ -1,0 +1,40 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.review-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: hsl(var(--navy-800));
+  padding: 1.5rem;
+  border-radius: 5px;
+  font-size: var(--fs-50);
+  letter-spacing: normal;
+  line-height: 2;
+  box-shadow: 2px 2px 6px 6px hsl(var(--navy-800)/0.25);
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: .8rem;
+}
+
+.author-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.author p {
+  font-size: .60rem;
+}
+
+.quotes-image {
+  width: 30px;
+}
