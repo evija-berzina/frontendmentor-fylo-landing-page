@@ -9,15 +9,15 @@ export function ReviewsSection() {
   return(
     <>
       <img className='quotes-image' src={Quotes} alt="" />
-      <section class="reviews">
-        <article class="review-card">
+      <section className="reviews">
+        <article className="review-card">
           <blockquote className='review'>
             <p>
               Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
             </p>
           </blockquote>
 
-          <div class="author">
+          <div className="author">
             <img className='author-image' src={Profile1} alt="Satish Patel" />
             <div>
               <h3>Satish Patel</h3>
@@ -26,14 +26,14 @@ export function ReviewsSection() {
           </div>
         </article>
 
-        <article class="review-card">
+        <article className="review-card">
           <blockquote className='review'>
             <p>
               Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
             </p>
           </blockquote>
 
-          <div class="author">
+          <div className="author">
             <img className='author-image' src={Profile2} alt="Bruce McKenzie" />
             <div>
               <h3>Bruce McKenzie</h3>
@@ -42,14 +42,14 @@ export function ReviewsSection() {
           </div>
         </article>
 
-        <article class="review-card">
+        <article className="review-card">
           <blockquote className='review'>
             <p>
               Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
             </p>
           </blockquote>
 
-          <div class="author">
+          <div className="author">
             <img className='author-image' src={Profile3} alt="Iva Boyd" />
             <div>
               <h3>Iva Boyd</h3>

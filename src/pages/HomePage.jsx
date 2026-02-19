@@ -3,6 +3,7 @@ import { Hero } from '../components/Hero';
 import { Features } from '../components/Features';
 import { ProductOverview } from '../components/ProductOverview';
 import { ReviewsSection } from '../components/ReviewsSection';
+import { CTASection } from '../components/CTASection';
 
 export function HomePage() {
   return (
@@ -13,6 +14,7 @@ export function HomePage() {
         <Features />
         <ProductOverview />
         <ReviewsSection />
+        <CTASection />
       </main>
       {/* <Footer /> */}
     </>
