@@ -4,6 +4,7 @@ import { Features } from '../components/Features';
 import { ProductOverview } from '../components/ProductOverview';
 import { ReviewsSection } from '../components/ReviewsSection';
 import { CTASection } from '../components/CTASection';
+import { Footer } from '../components/Footer';
 
 export function HomePage() {
   return (
@@ -16,7 +17,7 @@ export function HomePage() {
         <ReviewsSection />
         <CTASection />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
