@@ -11,25 +11,26 @@ export function Footer() {
 
       <div className="footer-content">
 
-        <div className='location-info'>
-          <img src={IconLocation} alt="" />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-          </p>
-        </div>
-
         <address className="contact-info">
-          <div className='phone-info'>
-            <img src={IconPhone} alt="" />
+          <div className='location-info'>
+            <img src={IconLocation} alt="" />
             <p>
-              +1-543-123-4567
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
             </p>
           </div>
-          <div className='email-info'>
-            <img src={IconEmail} alt="" />
-            <p>
-              example@fylo.com
-            </p>
+          <div>
+            <div className='phone-info'>
+              <img src={IconPhone} alt="" />
+              <p>
+                +1-543-123-4567
+              </p>
+            </div>
+            <div className='email-info'>
+              <img src={IconEmail} alt="" />
+              <p>
+                example@fylo.com
+              </p>
+            </div>
           </div>
         </address>
 

@@ -8,8 +8,18 @@
   padding-block-end: 3rem;
 }
 
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
 .fylo-logo {
   width: 50%;
+}
+
+.contact-info {
+  
 }
 
 .location-info,
@@ -17,7 +27,8 @@
 .email-info {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  padding-block-end: 1rem;
+  gap: 1rem;
 }
 
 .location-info {
@@ -33,6 +44,7 @@
 
 .footer-nav li {
   list-style: none;
+  padding-bottom: 1rem;
 }
 
 .footer-nav a {
