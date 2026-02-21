@@ -8,8 +8,8 @@ import Quotes from '../assets/images/bg-quotes.png';
 export function ReviewsSection() {
   return(
     <>
-      <img className='quotes-image' src={Quotes} alt="" />
       <section className="reviews">
+        <img className='quotes-image' src={Quotes} alt="" />
         <article className="review-card">
           <blockquote className='review'>
             <p>
