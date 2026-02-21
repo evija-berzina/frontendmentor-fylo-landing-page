@@ -6,10 +6,15 @@
   gap: 1.5rem;
   text-align: center;
   background-color: hsl(var(--navy-850));
+  margin-inline: 1.5rem;
   padding-inline: 1.8rem;
   padding-block: 3rem;
   border-radius: 10px;
   letter-spacing: 1px;
+  position: absolute;
+  top: 100%; /* novieto tieši zem main */
+  transform: translate(0, -50%);
+  z-index: 2;
 }
 
 .cta-form {

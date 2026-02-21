@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding-inline: 2rem;
+  padding-inline: 3rem;
+  padding-block-end: 24rem;
 }
 
 .review-card {

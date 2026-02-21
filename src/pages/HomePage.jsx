@@ -5,6 +5,7 @@ import { ProductOverview } from '../components/ProductOverview';
 import { ReviewsSection } from '../components/ReviewsSection';
 import { CTASection } from '../components/CTASection';
 import { Footer } from '../components/Footer';
+import './HomePage.css';
 
 export function HomePage() {
   return (
