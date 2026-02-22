@@ -1,8 +1,37 @@
 .overview-section {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
+  padding-inline: 2rem;
+  margin-block-end: 10rem;
+}
+
+.overview-section > :first-child {
+  margin-block-end: 2rem;
 }
 
 .overview-image {
   background-color: hsl(var(--navy-900));
+}
+
+.link-wrapper {
+  align-self: flex-start;
+  /* ja parent ir flex column */
+}
+
+.fylo-workd-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .5rem;
+  border-bottom: 1px solid hsl(var(--teal-200));
+  padding-block: .5rem;
+}
+
+.fylo-workd-link span {
+  color: hsl(var(--teal-200));
+}
+
+.fylo-workd-link img {
+  width: 18px;
 }

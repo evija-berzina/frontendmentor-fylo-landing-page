@@ -1,7 +1,18 @@
 .features-section {
   display: grid;
   grid-template-columns: 1fr;
+  gap: 6rem;
   text-align: center;
+  margin-block-end: 10rem;
+  padding-inline: 2rem;
+}
+
+.feature > * {
+  padding-block-end: 1rem;
+}
+
+.feature img {
+  padding-block-end: 2rem;
 }
 
 .features-heading {

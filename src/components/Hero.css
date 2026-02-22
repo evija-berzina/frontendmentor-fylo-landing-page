@@ -1,11 +1,35 @@
 .hero-section {
   display: flex;
   flex-direction: column;
-
-  background-image: url(../assets/images/bg-curvy-mobile.svg);
-  background-repeat: no-repeat;
-
+  gap: 2rem;
+  background-image: linear-gradient(
+      hsl(var(--navy-850)));
+  height: 50vh;
+  position: relative;
   text-align: center;
+  padding-inline: 2rem;
+  margin-block-end: 10rem;
+  z-index: -10;
+  /* background-image:
+    url(../assets/images/bg-curvy-mobile.svg), linear-gradient(
+      hsl(var(--navy-850)) 70%,
+      hsl(var(--navy-900)) 30%
+    );
+  background-repeat: no-repeat, no-repeat;
+  background-position: center bottom 40%, center;
+  background-size: contain, cover; */
+
+  
+}
+
+.hero-wave {
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 35%;
+  left: 0;
+  right: 0;
+  z-index: -1;
 }
 
 .hero-heading {

@@ -15,11 +15,13 @@ export function ProductOverview () {
       <p>
         Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.
       </p>
-      <div>
-        <p>
-          See how Fylo works
-        </p>
-        <img src={IconArrow} alt="" />
+      <div className='link-wrapper'>
+        <a className='fylo-workd-link'>
+          <span>
+            See how Fylo works
+          </span>
+          <img src={IconArrow} alt="" />
+        </a>
       </div>
     </section>
   );

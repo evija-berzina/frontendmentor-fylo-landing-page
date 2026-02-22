@@ -1,4 +1,5 @@
 import IntroPicture from '../assets/images/illustration-intro.png';
+import BgCurvyMobile from '../assets/images/bg-curvy-mobile.svg';
 import './Hero.css';
 
 export function Hero() {
@@ -8,6 +9,11 @@ export function Hero() {
       <h1 className='hero-heading'>
         All your files in one secure location, accessible anywhere.
       </h1>
+      <img 
+        src={BgCurvyMobile} 
+        alt="" 
+        className="hero-wave" 
+      />
       <p className='hero-info'>
         Fylo stores all your most important files in one secure location. Access them wherever 
   you need, share and collaborate with friends family, and co-workers.

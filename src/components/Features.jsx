@@ -7,7 +7,7 @@ import './Features.css';
 export function Features() {
   return (
     <section className='features-section'>
-      <article>
+      <article className='feature'>
         <img src={IconAccessAnywhere} alt="" />
         <h2 className='features-heading'>
           Access your files, anywhere
@@ -16,7 +16,7 @@ export function Features() {
           The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.
         </p>
       </article>
-      <article>
+      <article className='feature'>
         <img src={IconSecurity} alt="" />
         <h2 className='features-heading'>
           Security you can trust
@@ -25,7 +25,7 @@ export function Features() {
           2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.
         </p>
       </article>
-      <article>
+      <article className='feature'>
         <img src={IconCollaboration} alt="" />
         <h2 className='features-heading'>
           Real-time collaboration
@@ -34,7 +34,7 @@ export function Features() {
           Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.
         </p>
       </article>
-      <article>
+      <article className='feature'>
         <img src={IconAnyFile} alt="" />
         <h2 className='features-heading'>
           Store any type of file

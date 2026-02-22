@@ -14,10 +14,10 @@
   flex-direction: column;
   gap: 1rem;
   background-color: hsl(var(--navy-800));
-  padding: 1.5rem;
+  padding: 1.5rem 2rem 1.5rem 1.5rem;
   border-radius: 5px;
   font-size: var(--fs-50);
-  letter-spacing: normal;
+  letter-spacing: .6px;
   line-height: 2;
   box-shadow: 2px 2px 6px 6px hsl(var(--navy-800)/0.25);
 }
