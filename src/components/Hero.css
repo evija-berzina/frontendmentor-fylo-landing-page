@@ -2,34 +2,45 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  background-image: linear-gradient(
-      hsl(var(--navy-850)));
-  height: 50vh;
-  position: relative;
   text-align: center;
-  padding-inline: 2rem;
   margin-block-end: 10rem;
-  z-index: -10;
-  /* background-image:
-    url(../assets/images/bg-curvy-mobile.svg), linear-gradient(
-      hsl(var(--navy-850)) 70%,
-      hsl(var(--navy-900)) 30%
-    );
-  background-repeat: no-repeat, no-repeat;
-  background-position: center bottom 40%, center;
-  background-size: contain, cover; */
-
-  
+  background-color: hsl(var(--navy-900));
+  z-index: -2;
 }
 
-.hero-wave {
-  width: 100%;
-  display: block;
+.hero-first-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  background-color: hsl(var(--navy-850));
+  padding-inline: clamp(2rem, 8vw, 8rem);
+  z-index: 10;
+}
+
+.hero-second-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+  background-color: hsl(var(--navy-900));
+  padding-inline: 2rem;
+  font-size: 1rem;
+}
+
+.hero-background {
   position: absolute;
-  top: 35%;
+  bottom: 0;
   left: 0;
   right: 0;
+  width: 100%;
   z-index: -1;
+}
+
+.hero-background img {
+  width: 100%;
+  display: block;
 }
 
 .hero-heading {
@@ -43,14 +54,18 @@
 }
 
 .get-started-btn {
-  margin-inline: 2.5rem;
-  padding-block: 1rem;
-  background-color: hsl(var(--cyan-500));
+  width: 300px;
+  padding-block: 1.25rem;
+  background-image: linear-gradient(to right,
+    hsl(var(--cyan-500)/0.50),
+    hsl(var(--cyan-500))
+  );
   color: hsl(var(--white));
   font-family: var(--ff-raleway);
   font-weight: var(--fw-700);
+  font-size: 1rem;
   border: none;
-  border-radius: 1.6rem;
-  letter-spacing: 1.2px;
+  border-radius: 2rem;
+  letter-spacing: 1px;
   cursor: pointer;
 }

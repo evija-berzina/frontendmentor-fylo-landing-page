@@ -2,11 +2,22 @@
   display: flex;
   flex-direction: column;
   padding-inline: 3rem;
-  padding-block-end: 24rem;
+  padding-block-end: 20rem;
+  max-width: clamp(960px, 70%, 1600px);
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 }
 
 .reviews > *:not(:first-child) {
   margin-bottom: 2rem;
+}
+
+.review-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .review-card {
@@ -40,8 +51,23 @@
   font-size: .60rem;
 }
 
+.quotes-image-container {
+  display: flex;
+  align-items: end;
+}
+
 .quotes-image {
   width: 30px;
   position: relative;
+}
 
+@media (min-width: 1024px) {
+  .review-cards {
+    flex-direction: row;
+    gap: 2.5rem;
+  }
+
+  .review-card {
+    line-height: 1.5;
+  }
 }

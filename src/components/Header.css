@@ -4,10 +4,13 @@
   justify-content: space-between;
   align-items: center;
   background-color: hsl(var(--navy-850));
+  padding-inline: 1.5rem;
+  padding-block-start: 2rem;
+  padding-block-end: 4rem;
 }
 
-.fylo-logo {
-  width: 6rem;
+.fylo-logo-header {
+  width: 30%;
 }
 
 .nav-pages {
@@ -15,7 +18,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .nav-pages a {
