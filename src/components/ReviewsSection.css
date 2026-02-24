@@ -62,12 +62,25 @@
 }
 
 @media (min-width: 1024px) {
+  .reviews {
+    padding-inline: clamp(2rem, 5vw, 6rem);
+    max-width: 1300px;
+  }
+
   .review-cards {
     flex-direction: row;
     gap: 2.5rem;
   }
 
   .review-card {
-    line-height: 1.5;
+    line-height: 1.75;
+    font-size: var(--fs-100);
+  }
+
+  .quotes-image {
+    width: 50px;
+    bottom: -10px;
+    left: -10px;
+    z-index: -1;
   }
 }

@@ -9,8 +9,8 @@ export function ProductOverview () {
         <img className='overview-image' src={StayProductiveImage} alt="" />
       </div>
       <div className='overview-text-container'>
-        <h2 className='features-heading'>
-          Stay productive, wherever you are
+        <h2 className='overview-heading'>
+          Stay productive,<span className="desktop-break"> wherever you are</span>
         </h2>
         <p>
           Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.

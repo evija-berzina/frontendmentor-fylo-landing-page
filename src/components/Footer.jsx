@@ -11,46 +11,47 @@ export function Footer() {
       <img className='fylo-logo' src={LogoImage} alt="Fylo logo" />
 
       <div className="footer-content">
-
-        <section className="contact-info">
-          <div className='location-info'>
-            <img src={IconLocation} alt="" />
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-            </p>
-          </div>
-          <div>
-            <div className='phone-info'>
-              <img src={IconPhone} alt="" />
+        <div className='footer-tablet-layout'>
+          <section className="contact-info">
+            <div className='location-info'>
+              <img src={IconLocation} alt="" />
               <p>
-                +1-543-123-4567
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
               </p>
             </div>
-            <div className='email-info'>
-              <img src={IconEmail} alt="" />
-              <p>
-                example@fylo.com
-              </p>
+            <div>
+              <div className='phone-info'>
+                <img src={IconPhone} alt="" />
+                <p>
+                  +1-543-123-4567
+                </p>
+              </div>
+              <div className='email-info'>
+                <img src={IconEmail} alt="" />
+                <p>
+                  example@fylo.com
+                </p>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <nav className="footer-nav">
-          <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Jobs</a></li>
-            <li><a href="#">Press</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
-        </nav>
+          <nav className="footer-nav">
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </nav>
 
-        <nav className="footer-nav">
-          <ul>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Privacy</a></li>
-          </ul>
-        </nav>
+          <nav className="footer-nav">
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Privacy</a></li>
+            </ul>
+          </nav>
+        </div>
         
         <div className="social-links">
           <a href="#" aria-label="Facebook">

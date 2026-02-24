@@ -4,13 +4,13 @@
   justify-content: space-between;
   align-items: center;
   background-color: hsl(var(--navy-850));
-  padding-inline: 1.5rem;
-  padding-block-start: 2rem;
+  padding-inline: clamp(1.5rem, 5vw, 4rem);
+  padding-block-start: clamp(1.5rem, 3vw, 4rem);
   padding-block-end: 4rem;
 }
 
 .fylo-logo-header {
-  width: 30%;
+  width: 100px;
 }
 
 .nav-pages {
@@ -24,4 +24,28 @@
 .nav-pages a {
   color: hsl(var(--white));
   text-decoration: none;
+}
+
+@media (min-width: 789px) {
+  .fylo-logo-header {
+    width: 150px;
+  }
+
+  .nav-pages {
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-container {
+    padding-block-end: 4rem;
+  }
+
+  .fylo-logo-header {
+    width: 200px;
+  }
+  
+  .nav-pages {
+    gap: 4rem;
+  }
 }

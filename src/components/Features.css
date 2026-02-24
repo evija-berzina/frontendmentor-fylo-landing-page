@@ -1,11 +1,15 @@
 .features-section {
+  max-width: 1000px;
+  margin-inline: auto;
+  padding-inline: 2rem;
+  margin-block-end: 8rem;
+
   display: grid;
   grid-template-columns: 1fr;
   gap: 6rem;
+
   align-items: start;
   text-align: center;
-  margin-block-end: 10rem;
-  padding-inline: clamp(2rem, 10vw, 10rem);
 }
 
 .feature {
@@ -28,11 +32,13 @@
 
 .features-heading {
   font-family: var(--ff-raleway);
+  text-wrap: nowrap;
 }
 
 @media (min-width: 1024px) {
   .features-section {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6rem 6rem;
   }
 
   .features-heading {
