@@ -58,12 +58,25 @@
   cursor: pointer;
 }
 
-.fylo-workd-link span {
-  color: hsl(var(--teal-200));
+.fylo-workd-link:hover {
+  border-bottom: 1px solid hsl(var(--white));
 }
 
-.fylo-workd-link img {
-  width: 18px;
+.fylo-workd-link span {
+  color: hsl(var(--teal-200));
+  transition: color 0.15s ease;
+}
+
+.fylo-workd-link:hover span {
+  color: hsl(var(--white));
+}
+
+.fylo-workd-link .circle-fill {
+  transition: fill 0.3s ease;
+}
+
+.fylo-workd-link:hover .circle-fill {
+  fill: hsl(var(--white));
 }
 
 @media (min-width: 1024px) {

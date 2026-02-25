@@ -6,9 +6,9 @@ export function Header() {
     <header className='header-container'>
       <img className='fylo-logo-header' src={LogoImage} alt="Fylo logo" />
       <nav className='nav-pages'>
-        <a href="/">Features</a>
-        <a href="/">Team</a>
-        <a href="/">Sign In</a>
+        <a href="/" data-text="Features">Features</a>
+        <a href="/" data-text="Team">Team</a>
+        <a href="/" data-text="Sign In">Sign In</a>
       </nav>
     </header>
   );

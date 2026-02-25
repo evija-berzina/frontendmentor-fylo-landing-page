@@ -37,18 +37,18 @@ export function Footer() {
 
           <nav className="footer-nav">
             <ul>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Jobs</a></li>
-              <li><a href="#">Press</a></li>
-              <li><a href="#">Blog</a></li>
+              <li><a href="#" data-text='About Us'>About Us</a></li>
+              <li><a href="#" data-text='Jobs'>Jobs</a></li>
+              <li><a href="#" data-text='Press'>Press</a></li>
+              <li><a href="#" data-text='Blog'>Blog</a></li>
             </ul>
           </nav>
 
           <nav className="footer-nav">
             <ul>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Terms</a></li>
-              <li><a href="#">Privacy</a></li>
+              <li><a href="#" data-text='Contact Us'>Contact Us</a></li>
+              <li><a href="#" data-text='Terms'>Terms</a></li>
+              <li><a href="#" data-text='Privacy'>Privacy</a></li>
             </ul>
           </nav>
         </div>

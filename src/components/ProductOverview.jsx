@@ -23,7 +23,23 @@ export function ProductOverview () {
             <span>
               See how Fylo works
             </span>
-            <img src={IconArrow} alt="" />
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <g fill="none" fillRule="evenodd">
+                <g transform="translate(2 2)">
+                  {/* Ēna paliek kā use ar filter */}
+                  <use fill="#000" filter="url(#a)" xlinkHref="#b" />
+                  {/* Faktiskais circle, kuru krāsu mainīsim hover */}
+                  <circle
+                    className="circle-fill"
+                    cx="6"
+                    cy="6"
+                    r="6"
+                    fill="hsl(var(--teal-200))"
+                  />
+                </g>
+                <path d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z" fill="#1B2330" />
+              </g>
+            </svg>
           </a>
         </div>
       </div>

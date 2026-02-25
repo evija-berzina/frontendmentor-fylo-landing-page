@@ -12,7 +12,11 @@
 .footer-tablet-layout {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
+}
+
+.footer-content {
+  gap: 2rem;
 }
 
 .fylo-logo {
@@ -50,6 +54,19 @@
   color: hsl(var(--white));
 }
 
+.footer-nav a::after {
+  content: attr(data-text);
+  font-weight: 700;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  display: block;
+}
+
+.footer-nav a:hover {
+  font-weight: 700;
+}
+
 .social-links {
   display: flex;
   flex-direction: row;
@@ -65,6 +82,12 @@
   border: 1px solid hsl(var(--white));
   border-radius: 50%;
   padding: .4rem;
+  transition: fill 0.3s ease, border 0.3s ease;
+}
+
+.social-icon:hover {
+  fill: hsl(var(--teal-200));
+  border: 1px solid hsl(var(--teal-200));
 }
 
 @media (min-width: 789px) {

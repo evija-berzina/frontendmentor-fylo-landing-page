@@ -1,3 +1,4 @@
+import { useRef } from 'react';
 import { Header } from '../components/Header';
 import { Hero } from '../components/Hero';
 import { Features } from '../components/Features';
@@ -8,15 +9,21 @@ import { Footer } from '../components/Footer';
 import './HomePage.css';
 
 export function HomePage() {
+  const ctaRef = useRef();
+
+  const scrollToCTA = () => {
+    ctaRef.current.scrollIntoView({behavior: 'smooth'});
+  };
+  
   return (
     <>
       <Header />
       <main>
-        <Hero />
+        <Hero scrollToCTA={scrollToCTA} />
         <Features />
         <ProductOverview />
         <ReviewsSection />
-        <CTASection />
+        <CTASection ref={ctaRef} />
       </main>
       <Footer />
     </>

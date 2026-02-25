@@ -56,7 +56,7 @@
 
   background-image: linear-gradient(
     to right,
-    hsl(var(--cyan-500)/0.50),
+    hsl(var(--teal-200)),
     hsl(var(--cyan-500))
   );
 
@@ -69,4 +69,23 @@
   border-radius: 2rem;
   letter-spacing: 1px;
   cursor: pointer;
+
+  position: relative;
+  overflow: hidden;
+
+  transition: background-image 0.15s ease;
 } 
+
+.get-started-btn::after {
+  content: attr(data-text);
+  padding-block: 1.25rem;
+  position: absolute;
+  inset: 0;
+  background: hsl(var(--teal-200));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.get-started-btn:hover::after {
+  opacity: 1;
+}

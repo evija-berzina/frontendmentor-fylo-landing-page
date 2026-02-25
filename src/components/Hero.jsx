@@ -1,7 +1,8 @@
 import IntroPicture from '../assets/images/illustration-intro.png';
 import './Hero.css';
 
-export function Hero() {
+export function Hero({scrollToCTA}) {
+
   return (
     <section className="hero">
 
@@ -25,7 +26,10 @@ export function Hero() {
             Access them wherever you need, share and collaborate with friends,
             family, and co-workers.
           </p>
-          <button className="get-started-btn">
+          <button 
+            onClick={scrollToCTA}
+            className="get-started-btn"
+            data-text='Get Started'>
             Get Started
           </button>
         </div>
