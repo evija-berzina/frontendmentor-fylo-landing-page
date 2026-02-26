@@ -1,5 +1,4 @@
 import StayProductiveImage from '../assets/images/illustration-stay-productive.png';
-import IconArrow from '../assets/images/icon-arrow.svg';
 import './ProductOverview.css';
 
 export function ProductOverview () {

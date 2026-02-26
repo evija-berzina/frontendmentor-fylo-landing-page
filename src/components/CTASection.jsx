@@ -23,6 +23,7 @@ export const CTASection = forwardRef((props, ref) => {
       setErrorMessage('Please enter valid email address');
     } else {
       setErrorMessage("");
+      setEmail("");
     }
   }
 

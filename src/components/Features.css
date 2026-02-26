@@ -44,4 +44,11 @@
   .features-heading {
     font-size: 1rem;
   }
+
+  .feature img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    padding-block-end: 2rem;
+  }
 }

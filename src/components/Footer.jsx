@@ -2,7 +2,6 @@ import LogoImage from '../assets/images/logo.svg';
 import IconLocation from '../assets/images/icon-location.svg';
 import IconPhone from '../assets/images/icon-phone.svg';
 import IconEmail from '../assets/images/icon-email.svg';
-import IconFacebook from '../assets/images/facebook-solid.svg';
 import './Footer.css';
 
 export function Footer() {

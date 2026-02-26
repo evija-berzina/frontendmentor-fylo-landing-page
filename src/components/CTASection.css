@@ -7,7 +7,7 @@
   text-align: center;
   background-color: hsl(var(--navy-850));
 
-  width: clamp(380px, 70%, 800px);
+  width: clamp(340px, 70%, 800px);
   padding-inline: 2rem;
   padding-block: 3rem;
   margin-inline: auto;
@@ -101,6 +101,7 @@
 
   .cta-form {
     flex-direction: row;
+    align-items: flex-start;
     gap: 2rem
   }
 
