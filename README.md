@@ -2,4 +2,4 @@
 
 [Live site](https://papaya-cucurucho-52050e.netlify.app/)
 
-![Screenshot](screenshot.jpg)
+![Screenshot](screenshot.png)
